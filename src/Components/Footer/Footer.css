@@ -1,0 +1,64 @@
+.footerParentDiv {
+  width: 100%;
+  overflow-x: hidden;
+
+}
+.footerParentDiv .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ebeeef;
+  padding: 16px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.footerParentDiv .content .heading {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.footerParentDiv .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #002f34;
+  color: whitesmoke;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.footerParentDiv .footer p {
+  margin: 0;
+}
+.content ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.footerBanner{
+  display: flex;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: rgb(247,248,249);
+}
+.footerTittle{
+  padding-top: 20px;
+  padding-left:10px ;
+  font-size:x-large;
+  font-weight: 100;
+  width: 400px;
+  border-right: 1px solid black;
+}
+
+.appDownload{
+  padding-top: 10px;
+}
+.appDownload img{
+  width: 130px;
+  margin-left: 15px;
+}
+.appDownload h3{
+  margin-left: 15px;
+}
